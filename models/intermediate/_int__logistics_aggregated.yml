@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: _int__logistics_aggregated
+    description: '{{ doc("int__logistics_aggregated") }}'

@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: _int__products_summary
+    description: '{{ doc("int__products_summary") }}'
