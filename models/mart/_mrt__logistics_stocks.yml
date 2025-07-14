@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: mart__logistics_product_summary
+    description: '{{ doc("mrt__logistics_stocks")}}'
+    columns:
+      - name: product_id
+        description: Unique ID of the product.
+      - name: brand_name
+        description: Name of the brand the product belongs to.
+      - name: category_name
+        description: Name of the product category.
+      - name: total_sold_qty
+        description: Total number of units sold across all months.
+      - name: avg_sold_quantity_per_month
+        description: Average number of units sold per month.
+      - name: total_stock
+        description: Current total stock available for the product (across all stores).

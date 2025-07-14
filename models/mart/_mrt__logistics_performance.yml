@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: mart__logistics_performance
+    description: '{{ doc("int__logistics_stocks") }}'
+    columns:
+      - name: store_id
+        description: Unique identifier of the store.
+
+      - name: avg_delay_order_to_shipped
+        description: Average number of days between when the order was placed and when it was shipped.
+
+      - name: min_delay_order_to_shipped
+        description: Shortest time it took to ship an order.
+
+      - name: max_delay_order_to_shipped
+        description: Longest time it took to ship an order.
+
+      - name: avg_delay_required_to_shipped
+        description: Average number of days between the customer’s requested delivery date and the actual shipping date.
