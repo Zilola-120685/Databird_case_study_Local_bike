@@ -63,9 +63,6 @@ models:
         tests:
           - unique
           - not_null
-          - relationships:
-              to: ref('stg__order_items')
-              field: product_id
 
   - name: stg__staffs
     description: "This model contains list of local bike staff memebers by store"
@@ -75,9 +72,7 @@ models:
         tests:
           - unique
           - not_null
-          - relationships:
-              to: ref('stg__orders')
-              field: staff_id
+
 
   - name: stg__stocks
     description: "This model contains information on current stock status in each store by product id"

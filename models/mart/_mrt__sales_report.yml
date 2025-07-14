@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: mrt__sales_report
+    description: '{{doc("mrt__sales_report")}}'
+    columns:
+      - name: store_id
+        description: Identifier of the store where the sales took place.
+      - name: staff_id
+        description: Identifier of the staff member who made the sales.
+      - name: order_month
+        description: The month when the orders were placed (date truncated to month).
+      - name: total_orders
+        description: Total number of orders placed in the month.
+      - name: total_purchased_items
+        description: Total number of items purchased in the month.
+      - name: total_net_order_amount
+        description: Total net revenue after discounts.
+      - name: total_discount_amount
+        description: Total amount discounted across all orders.
+      - name: avg_discount_percentage
+        description: Average discount percentage applied by store and staff during the month.
+      - name: avg_discount_percentage_per_order_month
+        description: Average discount percentage across all stores for the given month (for benchmarking).
