@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: mart__stores_and_customers_summary
-    description: '{{doc("mrt__stores_performance")}}'
+  - name: mrt__store_performance
+    description: '{{doc("mrt__store_performance")}}'
     columns:
       - name: store_id
         description: Identifier of the store.

@@ -1,4 +1,4 @@
-{% docs mrt__logistics_stocks %}
+{% docs mrt__store_performance %}
 This table gives a monthly summary of store performance.  
 It helps understand how each store and staff member performs in terms of number of orders, customers, and revenue.
 Columns:
