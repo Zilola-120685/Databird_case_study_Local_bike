@@ -5,7 +5,7 @@ WITH monthly_sales AS (
     s.category_name,
     SUM(lo.ordered_quantity) AS total_sold_quantity,
     DATE_TRUNC(order_date, MONTH) AS order_month
-  FROM {{ ref('int__logisticts_per_order') }} lo
+  FROM {{ ref('int__logistics_per_order') }} lo
   JOIN {{ ref('int__logistics_stocks') }} s
     USING (product_id)
   GROUP BY
