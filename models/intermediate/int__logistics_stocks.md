@@ -1,4 +1,4 @@
-{% docs int_logistics_stocks %}
+{% docs int__logistics_stocks %}
 This table provides a logistics info combining stock levels per product and per store with product metadata.  
 It includes category and brand names for analysis.
 Columns:

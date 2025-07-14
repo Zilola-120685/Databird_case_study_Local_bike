@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: _int__stores_and_customers_summary
+  - name: int__stores_and_customers_summary
     description: '{{ doc("int__stores_and_customers_summary") }}'
