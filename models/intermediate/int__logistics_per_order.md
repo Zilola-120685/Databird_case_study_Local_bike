@@ -1,4 +1,4 @@
-{% docs int__logisticts_per_order %}
+{% docs int__logistics_per_order %}
 This table provides detailed logistics data at the order and product level.  
 It includes order and shipping dates, ordered quantities, and associated stock levels, making it useful for analyzing delivery performance and fulfillment timelines.
 Columns:

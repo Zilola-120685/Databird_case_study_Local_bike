@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: _int__logistics_per_order
+  - name: int__logistics_per_order
     description: '{{ doc("int__logistics_per_order") }}'
