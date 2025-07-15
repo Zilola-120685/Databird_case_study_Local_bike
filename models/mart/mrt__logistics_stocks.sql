@@ -19,6 +19,7 @@ WITH monthly_sales AS (
     brand_name,
     category_name,
     SUM(total_sold_quantity) AS total_sold_qty,
+    COUNT(DISTINCT order_month) AS total_active_months,
     ROUND(SUM(total_sold_quantity) / COUNT(DISTINCT order_month), 2) AS avg_sold_quantity_per_month
   FROM monthly_sales
   GROUP BY 
@@ -43,6 +44,7 @@ SELECT
   s.category_name,
   ag.total_sold_qty,
   ag.avg_sold_quantity_per_month,
+  ag.total_active_months,
   s.total_stock
 FROM agg_per_month ag
 JOIN stocks s
