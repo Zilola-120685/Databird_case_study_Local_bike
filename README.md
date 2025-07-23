@@ -27,7 +27,7 @@ As an Analytics Engineer, your mission was to help Local Bike become a data-driv
 - **BigQuery** – Cloud data warehouse
 - **dbt** – Data modeling and transformation
 - **GitHub** – Version control and collaboration
-- **BI Tool** – Power BI / Tableau / Metabase (for visualization)
+- **BI Tool** – Tableau (for visualization)
 - **SQL** – Data transformation logic
 
 ---
